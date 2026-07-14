@@ -1,16 +1,34 @@
-## Hi there 👋
+# BarreraLabs
 
-<!--
-**barreralabs/barreralabs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+BarreraLabs es un sitio web SPA profesional para una empresa de investigación, desarrollo tecnológico, IA, automatización y software.
 
-Here are some ideas to get you started:
+## Stack
+- React 19
+- TypeScript
+- Vite
+- React Router
+- TanStack Query
+- Zustand
+- Tailwind CSS
+- Framer Motion
+- React Hook Form + Zod
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Estructura
+- src/app: router, providers y error boundaries
+- src/components: UI, layout y common components
+- src/features: módulos de negocio
+- src/pages: páginas principales del sitio
+- src/store: Zustand stores
+- src/services/api: servicios y datos mock listos para API futura
+- src/types, src/utils, src/constants: tipado y utilidades compartidas
+
+## Scripts
+- npm install
+- npm run dev
+- npm run build
+- npm run preview
+
+## Notas
+- El proyecto está preparado para conectar APIs futuras sin cambiar la arquitectura general.
+- El estado global gestiona tema, idioma y menú móvil.
+- El formulario de contacto simula envío y deja la validación lista para conectar un backend.
